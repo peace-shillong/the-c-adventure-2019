@@ -1,0 +1,54 @@
+Questions
+
+(Use While loop)
+Q1. Write a program that determine if a number entered by the user at run time is an Armstrong number or not.
+
+Q2. Write a program to input a positive number and reverse the digits of the number.
+
+(Lecture 6 Topic)
+Q3. Write a program to generate Fibonacci series and print their sum and average.
+
+Q4. Write a program to generate all the prime numbers till N.
+
+Q5. Write a program to input the roll no., marks in 3 subjects and marks in one additional subject for N number of students. Compute the total marks, excess additional marks should be added to the total marks and determine the division. No division should be given if fail in 1 or more subjects.
+
+Q6.  WAP To calculate the average of n numbers. [use for loop and arrays]
+
+Q7. WAP to add two numbers, using user defined function add.
+
+Q8. WAP to find Factorial  of a number [use for loop].
+
+Q9. WAP to find HCF and LCM.
+HCF is also known as the greatest common divisor (GCD) or the greatest common factor (GCF).
+
+Q10. WAP to check whether a number is prime or not.
+( if you can use efficient logic :thumbsup: )
+
+# For Educational Purpose only
+  This is a list of questions for Programming in C, to be used for educational purpose only.
+
+# How to submit assignment
+
+1. fork the repository
+2. open the repo from your profile
+3. Create new file or Upload file
+	filename: q1_01_yourname.c
+4. Inside q1_01_yourname.c
+	/*
+	Q1. Write a program that determine if a number entered by the user at run time is an Armstrong number or not.
+	Reference: Book; link; or any other
+
+	Algo: (in your own words)
+	
+	*/
+	#include<stdio.h>
+	#include<conio.h>
+	void main()
+	{
+		char no		
+		printf("Enter Your Roll No");
+		scanf("%d",&no);
+		
+	}
+
+5. commit changes and make new pull request
