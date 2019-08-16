@@ -34,3 +34,5 @@ void main()
     printf("%d is an Armstrong Number.");
   else
     printf("%d is not an Armstrong Number.");
+   getch();
+}
