@@ -17,10 +17,11 @@
 */
 
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
   int n, temp, sum, r;
-  sum = n;
+  sum = 0;
   printf("Enter a number:");
   scanf("%d", &n);
   temp=n;
@@ -31,8 +32,8 @@ void main()
     n = n / 10;
   }
   if(temp == sum)
-    printf("%d is an Armstrong Number.");
+    printf("%d is an Armstrong Number.", temp);
   else
-    printf("%d is not an Armstrong Number.");
+    printf("%d is not an Armstrong Number.", temp);
    getch();
 }
