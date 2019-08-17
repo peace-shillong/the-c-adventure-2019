@@ -18,7 +18,7 @@
 
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
   int n, temp, sum, r;
   sum = 0;
@@ -35,5 +35,6 @@ void main()
     printf("%d is an Armstrong Number.", temp);
   else
     printf("%d is not an Armstrong Number.", temp);
+    return 0;
    getch();
 }
