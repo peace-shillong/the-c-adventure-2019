@@ -44,4 +44,5 @@ int main()
 			printf("%.2f - Fail",div);
 			
 	}
+	return 0;
 }
