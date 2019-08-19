@@ -11,7 +11,7 @@ void main(){
   scanf("%d", &n);
   while (n>0){
     for(int i=2;i<=flag;i++){
-      if (flag%i == 0){
+      if (flag%i == 0)
         break;
       }
       if (flag == i){
@@ -19,7 +19,6 @@ void main(){
         n--
       }
      flag++;
-    }
- }   
+    }  
   getch();
 }
