@@ -11,30 +11,30 @@ void main(){
   printf("Enter the total number of students(<100): ");
   scanf("%d", N);
   for(int i=0;i<N;i++){
-      printf("Enter the roll number of student %d: ",i+1);
+      printf("\nEnter the roll number of student %d: ",i+1);
       scanf("%d", &roll[i]);
-      printf("Enter marks for math: ");
+      printf("\nEnter marks for math: ");
       scanf("%d", &math[i]);
-      printf("Enter marks for C: ");
+      printf("\nEnter marks for C: ");
       scanf("%d", &c[i]);
-      printf("Enter marks for dld: ");
+      printf("\nEnter marks for dld: ");
       scanf("%d", &dld[i]);
-      printf("Enter marks for computer architecture(additional): ");
+      printf("\nEnter marks for computer architecture(additional): ");
       scanf("%d", &ca[i]);
   } 
   for(int i=0;i<N;i++){
       if (math[i]<30 || c[i]<30 || dld[i]<30 || ca[i]<30)
-        printf("you have not acquired any division since you have failed in 1 or more subjects");
+        printf("\nyou have not acquired any division since you have failed in 1 or more subjects");
       else{
         total+=math[i]+c[i]+dld[i]+ca[i];
           if (total >450)
-            printf("Passed with 1st Division");
+            printf("\nPassed with 1st Division");
           else if(total>350 && total <= 450)
-            printf("Passed with 2nd Division");
+            printf("\nPassed with 2nd Division");
           else if(total>250 && total <= 350)
-            printf("Passed with 3rd Division");
+            printf("\nPassed with 3rd Division");
           else
-            printf("Passed with consolidatory Division");
+            printf("\nPassed with consolidatory Division");
       }
         
   }
