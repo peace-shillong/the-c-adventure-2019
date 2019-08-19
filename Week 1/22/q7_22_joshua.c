@@ -8,7 +8,7 @@ void main(){
     printf("Enter two numbers: ");
     scanf("%d %d",&a,&b);
     result=addTwoNumbers(a,b);
-    printf("Sum of two numbers: ",result);
+    printf("\nSum of two numbers: ",result);
   getch();
 }
 int addTwoNumbers(int a, int b){
