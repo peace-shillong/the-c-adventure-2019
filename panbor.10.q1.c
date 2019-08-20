@@ -15,8 +15,8 @@ void main()
         n1/= 10;
     }
     if(result == n)
-        printf("%d is an Armstrong number.",number);
+        printf("%d is an Armstrong number.",n);
     else
-        printf("%d is not an Armstrong number.",number);
+        printf("%d is not an Armstrong number.",n);
     return 0;
 } 
