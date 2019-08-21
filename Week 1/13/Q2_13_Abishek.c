@@ -9,13 +9,20 @@ int main()
   printf("Enter a number:");
   scanf("%d", &n);
   temp=n;
-  while(n>0)
+  if(n<0)
   {
-    r = n % 10;
-    sum = sum * 10 + r;
-    n = n / 10;
+    printf("Enter a positive number.");
   }
-  printf("The reverse of %d is %d.", temp, sum);
+  else
+  {
+    while(n>0)
+    {
+      r = n % 10;
+      sum = sum * 10 + r;
+      n = n / 10;
+    }
+    printf("The reverse of %d is %d.", temp, sum);
+  }
   return 0;
   getch();
 }
