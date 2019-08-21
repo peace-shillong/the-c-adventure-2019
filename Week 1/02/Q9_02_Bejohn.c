@@ -1,4 +1,4 @@
-*/Q9. WAP to find HCF and LCM.
+/*Q9. WAP to find HCF and LCM.
 HCF is also known as the greatest common divisor (GCD) or the greatest common factor (GCF).*/
 
 #include <stdio.h>
