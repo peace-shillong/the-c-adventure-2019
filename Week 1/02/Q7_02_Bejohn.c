@@ -1,4 +1,4 @@
-*/Q7. WAP to add two numbers, using user defined function add.*/
+/*Q7. WAP to add two numbers, using user defined function add.*/
 
 #include <stdio.h>
     
