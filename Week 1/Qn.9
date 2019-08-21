@@ -1,0 +1,38 @@
+#include<graphics.h>
+#include<conio.h>
+#include<dos.h>
+ 
+int initmouse();
+void showmouseptr();
+void hidemouseptr();
+ 
+union REGS i, o;
+ 
+main()
+{
+   int status, count = 1, gd = DETECT, gm;
+ 
+   initgraph(&gd,&gm,"C:\\TC\\BGI");
+ 
+   status = initmouse();
+ 
+   if ( status == 0 )
+      printf("Mouse support not available.\n");
+   else
+   {
+      showmouseptr();
+ 
+      while(count<=10)
+      {
+         getch();
+         count++;
+         if(count%2==0)
+            hidemouseptr();
+         else
+            showmouseptr();
+      }
+   }
+ 
+   getch();
+   return 0;
+}
