@@ -1,4 +1,4 @@
-*/Q10. WAP to check whether a number is prime or not.*/
+/*Q10. WAP to check whether a number is prime or not.*/
 
 #include<stdio.h>
 
