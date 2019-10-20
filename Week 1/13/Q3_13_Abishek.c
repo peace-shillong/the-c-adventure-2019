@@ -15,7 +15,7 @@ int main()
   if(n<=0)
   {
   	printf("Enter the valid number of terms.");
-  	exit(0);ls	
+  	exit(0);
 	  }  
 	  else
   	{
@@ -31,15 +31,15 @@ int main()
   				printf("%d\t", a);
   				printf("%d", b);
   				sum=a+b;
-  				avg=(a+b)/2;
+  				avg=(double)(a+b)/2;
   			}
   			else
   			{
   				printf("%d\t", a);
   				printf("%d\t", b);
+  				sum=a+b;
   				for(i=2; i<n;i++)
   				{
-  					sum=a+b;
   					c=a+b;
   					a=b;
   					b=c;
@@ -56,4 +56,3 @@ int main()
   return 0;
   getch();
 }
-  
